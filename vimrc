@@ -2,6 +2,7 @@ set nocompatible      " We're running Vim, not Vi!
 syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
+set smartindent
 filetype plugin on    " Enable filetype-specific plugins
 set tabstop=2
 set shiftwidth=2
@@ -19,3 +20,4 @@ else " no gui
   " I have no idea of the name of Ctrl-Space elsewhere
   endif
 endif
+set fileencodings=ucs-bom,utf-8,default,latin1,korea

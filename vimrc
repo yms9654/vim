@@ -22,3 +22,4 @@ else " no gui
 endif
 set fileencodings=ucs-bom,utf-8,default,latin1,korea
 set autochdir
+set modeline

@@ -1,7 +1,7 @@
 Download and link configuration file: 
 <pre>
 $ git clone https://github.com/yms9654/vim.git
-$ mv dotvim ~/.vim
+$ mv vim ~/.vim
 $ ln -s ~/.vim/vimrc ~/.vimrc
 </pre>
 

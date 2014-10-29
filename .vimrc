@@ -3,10 +3,8 @@ syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 set smartindent
-filetype plugin on    " Enable filetype-specific plugins
 set tabstop=2
 set shiftwidth=2
-set makeprg=ruby\ %
 set autowrite
 set nu
 " autocomplete key mapping
@@ -23,3 +21,4 @@ endif
 set fileencodings=ucs-bom,utf-8,default,latin1,korea
 set autochdir
 set modeline
+let g:netrw_liststyle=3

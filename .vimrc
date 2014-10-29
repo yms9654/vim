@@ -21,4 +21,8 @@ endif
 set fileencodings=ucs-bom,utf-8,default,latin1,korea
 set autochdir
 set modeline
+
 let g:netrw_liststyle=3
+
+hi Directory cterm=bold ctermfg=4
+hi SpecialKey cterm=bold ctermfg=4

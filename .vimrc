@@ -1,13 +1,41 @@
-set nocompatible      " We're running Vim, not Vi!
-syntax on             " Enable syntax highlighting
-filetype on           " Enable filetype detection
-filetype indent on    " Enable filetype-specific indenting
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
+" my settings
 set smartindent
 set et
 set tabstop=2
 set shiftwidth=2
 set autowrite
 set nu
+set fileencodings=ucs-bom,utf-8,default,latin1,korea
+set autochdir
+set modeline
+
 " autocomplete key mapping
 if has("gui_running")
     " C-Space seems to work under gVim on both Linux and win32
@@ -19,9 +47,6 @@ else " no gui
   " I have no idea of the name of Ctrl-Space elsewhere
   endif
 endif
-set fileencodings=ucs-bom,utf-8,default,latin1,korea
-set autochdir
-set modeline
 
 let g:netrw_liststyle=3
 

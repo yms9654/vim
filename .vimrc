@@ -3,6 +3,7 @@ syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 set smartindent
+set et
 set tabstop=2
 set shiftwidth=2
 set autowrite
@@ -26,3 +27,4 @@ let g:netrw_liststyle=3
 
 hi Directory cterm=bold ctermfg=4
 hi SpecialKey cterm=bold ctermfg=4
+hi Comment cterm=bold ctermfg=4

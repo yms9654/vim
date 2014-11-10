@@ -37,6 +37,7 @@ set nu
 set fileencodings=ucs-bom,utf-8,default,latin1,korea
 set autochdir
 set modeline
+syntax on
 
 " autocomplete key mapping
 if has("gui_running")

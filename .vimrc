@@ -9,11 +9,12 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-
+Plugin 'kchmck/vim-coffee-script'
 Bundle "pangloss/vim-javascript"
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+syntax enable
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
@@ -37,7 +38,6 @@ set nu
 set fileencodings=ucs-bom,utf-8,default,latin1,korea
 set autochdir
 set modeline
-syntax on
 
 " autocomplete key mapping
 if has("gui_running")

@@ -38,6 +38,7 @@ set nu
 set fileencodings=ucs-bom,utf-8,default,latin1,korea
 set autochdir
 set modeline
+set tags=./tags,tags;$HOME
 
 " autocomplete key mapping
 if has("gui_running")

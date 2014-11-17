@@ -10,6 +10,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-rails'
+Plugin 'tomtom/tcomment_vim'
 Bundle "pangloss/vim-javascript"
 
 " All of your Plugins must be added before the following line

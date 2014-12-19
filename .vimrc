@@ -13,6 +13,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-rails'
 Plugin 'tomtom/tcomment_vim'
 Bundle "pangloss/vim-javascript"
+Plugin 'Command-T'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -38,7 +39,7 @@ set shiftwidth=2
 set autowrite
 set nu
 set fileencodings=ucs-bom,utf-8,default,latin1,korea
-set autochdir
+" set autochdir
 set modeline
 set tags=./tags,tags;$HOME
 

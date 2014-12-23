@@ -14,6 +14,8 @@ Plugin 'tpope/vim-rails'
 Plugin 'tomtom/tcomment_vim'
 Bundle "pangloss/vim-javascript"
 Plugin 'Command-T'
+Plugin 'HTML-AutoCloseTag'
+Bundle 'The-NERD-tree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

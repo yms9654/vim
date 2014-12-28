@@ -44,6 +44,7 @@ set fileencodings=ucs-bom,utf-8,default,latin1,korea
 " set autochdir
 set modeline
 set tags=./tags,tags;$HOME
+set backspace=indent,eol,start " for mac
 
 " autocomplete key mapping
 if has("gui_running")

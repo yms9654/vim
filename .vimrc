@@ -45,5 +45,3 @@ set fileencodings=ucs-bom,utf-8,default,latin1,korea
 set modeline
 set tags=./tags,tags;$HOME
 set backspace=indent,eol,start " for mac
-set background=dark
-colorscheme solarized

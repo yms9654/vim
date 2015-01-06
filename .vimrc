@@ -48,3 +48,5 @@ set backspace=indent,eol,start " for mac
 
 set background=light
 colorscheme pencil
+
+nnoremap ,cd :cd %:p:h<CR>:pwd<CR>

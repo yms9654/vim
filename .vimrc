@@ -16,6 +16,8 @@ Bundle "pangloss/vim-javascript"
 Plugin 'Command-T'
 Plugin 'HTML-AutoCloseTag'
 Bundle 'The-NERD-tree'
+Plugin 'MatchTag'
+Plugin 'flazz/vim-colorschemes'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -48,6 +50,5 @@ set backspace=indent,eol,start " for mac
 
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
-"let g:hybrid_user_Xresources = 1
 set background=dark
-colorscheme hybrid
+colorscheme jelleybeans

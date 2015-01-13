@@ -52,3 +52,4 @@ nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 
 set background=dark
 colorscheme jelleybeans
+

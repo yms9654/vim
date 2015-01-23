@@ -18,6 +18,7 @@ Plugin 'HTML-AutoCloseTag'
 Bundle 'The-NERD-tree'
 Plugin 'MatchTag'
 Plugin 'flazz/vim-colorschemes'
+Bundle 'laurentgoudet/vim-howdoi.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -47,9 +48,5 @@ set fileencodings=ucs-bom,utf-8,default,latin1,korea
 set modeline
 set tags=./tags,tags;$HOME
 set backspace=indent,eol,start " for mac
-
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
-
-set background=dark
 colorscheme jelleybeans
-

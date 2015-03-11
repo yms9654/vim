@@ -21,6 +21,7 @@ Plugin 'flazz/vim-colorschemes'
 Bundle 'laurentgoudet/vim-howdoi.git'
 Plugin 'Valloric/YouCompleteMe'
 Bundle 'vim-ruby/vim-ruby'
+Plugin 'mattn/emmet-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -39,10 +40,11 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " my settings
-set smartindent
-set et
-set tabstop=2
+set expandtab
+set smarttab
 set shiftwidth=2
+set tabstop=2
+set smartindent
 set autowrite
 set nu
 set fileencodings=ucs-bom,utf-8,default,latin1,korea

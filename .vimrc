@@ -22,8 +22,8 @@ Bundle 'laurentgoudet/vim-howdoi.git'
 Plugin 'Valloric/YouCompleteMe'
 Bundle 'vim-ruby/vim-ruby'
 Plugin 'mattn/emmet-vim'
-Plugin 'git://github.com/mxw/vim-jsx.git'
-Plugin 'git://github.com/jiangmiao/auto-pairs.git'
+Plugin 'https://github.com/mxw/vim-jsx.git'
+Plugin 'https://github.com/jiangmiao/auto-pairs.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

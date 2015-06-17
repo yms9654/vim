@@ -24,6 +24,9 @@ Bundle 'vim-ruby/vim-ruby'
 Plugin 'mattn/emmet-vim'
 Plugin 'https://github.com/mxw/vim-jsx.git'
 Plugin 'https://github.com/jiangmiao/auto-pairs.git'
+Plugin 'https://github.com/Shougo/vimproc'
+Plugin 'https://github.com/Shougo/vimshell.vim'
+Plugin 'unite.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -56,4 +59,5 @@ set tags=./tags,tags;$HOME
 set backspace=indent,eol,start " for mac
 set modifiable
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
+vnoremap // y/<C-R>"<CR>"
 colorscheme jelleybeans

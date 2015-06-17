@@ -1,3 +1,4 @@
+scriptencoding utf-8
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -24,7 +25,6 @@ Bundle 'vim-ruby/vim-ruby'
 Plugin 'mattn/emmet-vim'
 Plugin 'https://github.com/mxw/vim-jsx.git'
 Plugin 'https://github.com/jiangmiao/auto-pairs.git'
-Plugin 'https://github.com/yms9654/conque.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -58,4 +58,6 @@ set backspace=indent,eol,start " for mac
 set modifiable
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 vnoremap // y/<C-R>"<CR>"
+nnoremap <F9> V:w !bash<CR>
+vnoremap <F10> :w !bash<CR>
 colorscheme jelleybeans

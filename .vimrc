@@ -24,9 +24,7 @@ Bundle 'vim-ruby/vim-ruby'
 Plugin 'mattn/emmet-vim'
 Plugin 'https://github.com/mxw/vim-jsx.git'
 Plugin 'https://github.com/jiangmiao/auto-pairs.git'
-Plugin 'https://github.com/Shougo/vimproc'
-Plugin 'https://github.com/Shougo/vimshell.vim'
-Plugin 'unite.vim'
+Plugin 'https://github.com/yms9654/conque.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

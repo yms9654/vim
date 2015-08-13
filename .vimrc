@@ -25,6 +25,8 @@ Bundle 'vim-ruby/vim-ruby'
 Plugin 'mattn/emmet-vim'
 Plugin 'https://github.com/mxw/vim-jsx.git'
 Plugin 'https://github.com/jiangmiao/auto-pairs.git'
+Plugin 'https://github.com/tpope/vim-rake.git'
+Plugin 'https://github.com/tpope/vim-projectionist.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -56,6 +58,7 @@ set modeline
 set tags=./tags,tags;$HOME
 set backspace=indent,eol,start " for mac
 set modifiable
+set path=$PWD/**
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
 vnoremap // y/<C-R>"<CR>"
 nnoremap <F9> V:w !bash<CR>

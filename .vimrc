@@ -15,7 +15,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'tomtom/tcomment_vim'
 Bundle "pangloss/vim-javascript"
 Plugin 'Command-T'
-Plugin 'HTML-AutoCloseTag'
+" Plugin 'HTML-AutoCloseTag'
 Bundle 'The-NERD-tree'
 Plugin 'MatchTag'
 Plugin 'flazz/vim-colorschemes'
@@ -27,6 +27,7 @@ Plugin 'https://github.com/mxw/vim-jsx.git'
 Plugin 'https://github.com/jiangmiao/auto-pairs.git'
 Plugin 'https://github.com/tpope/vim-rake.git'
 Plugin 'https://github.com/tpope/vim-projectionist.git'
+Plugin 'https://github.com/docunext/closetag.vim.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

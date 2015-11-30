@@ -28,6 +28,7 @@ Plugin 'https://github.com/tpope/vim-rake.git'
 Plugin 'https://github.com/tpope/vim-projectionist.git'
 Plugin 'https://github.com/docunext/closetag.vim.git'
 Plugin 'https://github.com/tmhedberg/matchit.git'
+Plugin 'https://github.com/tpope/vim-haml.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
